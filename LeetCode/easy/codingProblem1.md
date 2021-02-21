@@ -20,3 +20,9 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 - C can be placed before `D` (500) and `M` (1000) to make 400 and 900.
 
 Given a roman numeral, convert it to an integer.
+
+# Explanation
+
+This problem requires us to map Roman Symbols and their translations into deciman system. In the beginning of the algorithm, it is required to split the input Roman Symbols, into an array. 
+
+Later, current Roman Symbol can be selected and used to find it's value in decimal system. Similarly, we also need to keep track of the next Symbol and it's equivalent in decimal system, this is because both of the numbers will be compared in the next step of the algorithm. In the next step, if the `nextVal` is larger than `currentVal`, we have to subtract `currentVal` from the sum (which is 0 currently). Else if, the `nextVal` is smaller than `currentVal`, the algorithm shall add, `currentVal`into `sum` variable. This process shall be repeated until no elements are left in the array.
