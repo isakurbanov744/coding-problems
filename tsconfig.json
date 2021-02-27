@@ -1,2 +1,11 @@
 {
+  "compilerOptions": {
+    "module": "commonjs",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false
+  },
+  "exclude": ["node_modules", "**/*"]
 }
