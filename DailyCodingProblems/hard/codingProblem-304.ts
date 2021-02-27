@@ -13,12 +13,7 @@ const move = (mat: number[][], p: number, q: number) => {
   return validMoves;
 };
 
-const explore = (
-  mat: number[][],
-  pos: Array<number>,
-  turns: number,
-  valData: any
-) => {
+const explore = (mat: number[][], pos: number[], turns: number, valData: any) => {
   if (turns === 0) {
     return false;
   }
