@@ -11,3 +11,4 @@ Bonus: What input n <= 1000000 gives the longest sequence?
 
 # Explanation
 
+This problem is simple and can be solved using a single line of code (ternary operator). According to the Collatz Sequence, the output of given number will always end with 1 (should end with 1). In the code, we can use a while loop that will make sure that the program stops when `n` is equal to 1. Inside the while loop, with a simple modulo operator, we can calculate if `n` value is odd or even (`n % 2 == 0`, even). Doing this appropriate formulas can be used to find the next value of `n`. Meanwhile, all values of `n` can be pushed to the output array, to return when `n` reaches 1.
