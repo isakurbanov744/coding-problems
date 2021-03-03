@@ -8,4 +8,4 @@ Implement this system.
 
 # Explanation
 
-Under Construction
+This problem requires a single formula to find the score gained or lost as a result of the game. If the result is win, points calculated by Elo rating system are added to the score of winner, similarly calculated points are subtracted from the loosing sides score.
