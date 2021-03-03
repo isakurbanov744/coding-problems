@@ -6,4 +6,4 @@ Determine how many times you would need to apply this operation to ensure that a
 
 # Explanation
 
-Under Construction
+In this problem, we need to keep track of the index (`n`) of the last `x` letter in the input array. Later, the index value together with the input array will be sent to another function (`flip`) as arguments. The `flip` function will loop until `n` index value of the input array, meanwhile, a `counter` variable will be used in the function that will increment if the input array contains `y` letters. At the end, number of the counter will be steps required to flip all `x`'s in the input array.
