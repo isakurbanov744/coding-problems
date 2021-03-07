@@ -8,3 +8,6 @@ Follow-up: what if you can't use division?
 
 # Explanation
 
+This coding problem can be easily solved if division would be allowed. We could just loop through every element and divide product of all elements in the array by the element at index `i`.
+
+However, doing this problem without division, we need to write another algorithms to find product of all elements on the right side of the current index `i` and as well on the left side. Later, we can return the product of right and left sides (which we already calculated). In the main function, the output can be placed on the current index that the loop is on.
