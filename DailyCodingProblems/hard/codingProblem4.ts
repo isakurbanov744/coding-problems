@@ -1,4 +1,4 @@
-const mainFunc = (nums: number[]) => {
+const mainFunc = (nums: number[]): number => {
   let numsSet = new Set(nums);
   let counter: number = 1;
 
