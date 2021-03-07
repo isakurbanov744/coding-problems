@@ -2,6 +2,8 @@
 
 | Difficulty        | Coding Problem           | MarkDown File  |
 | ------------- |:-------------:| -----:|
+| Easy | [1](DailyCodingProblems/easy/codingProblem1.ts) | [MD](DailyCodingProblems/easy/codingProblem1.md) |
+| Medium | [2](DailyCodingProblems/medium/codingProblem2.ts) | [MD](DailyCodingProblems/medium/codingProblem2.md) |
 | Easy | [37](DailyCodingProblems/easy/codingProblem37.ts) | [MD](DailyCodingProblems/easy/codingProblem37.md) |
 | Hard | [150](DailyCodingProblems/hard/codingProblem150.ts) | [MD](DailyCodingProblems/hard/codingProblem150.md) |
 | Easy | [206](DailyCodingProblems/easy/codingProblem206.ts) | [MD](DailyCodingProblems/easy/codingProblem206.md) |
