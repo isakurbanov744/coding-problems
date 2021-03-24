@@ -3,3 +3,5 @@
 Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1`, `7`, `8`, `49`, and so on. Create an algorithm to find the nth sevenish number.
 
 # Explanation
+
+Bit shifting can be used to solve this problem efficiently. Value of `n` will be used in a while loop, and until all the powers have been satisfied bit of `n` will be shifted.
