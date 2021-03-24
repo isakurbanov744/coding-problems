@@ -6,4 +6,6 @@ Bonus: Can you do this in one pass?
 
 # Explanation
 
+For this simple problem, two for loops can be used to determine if two numbers in an array will sum up to `k`. This will make the complexity `O(n^2)`
+
 
